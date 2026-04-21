@@ -1,0 +1,26 @@
+# Dependencies
+node_modules/
+__pycache__/
+*.py[cod]
+*.egg-info/
+venv/
+.venv/
+
+# Builds
+build/
+dist/
+.next/
+
+# Env files (contain secrets!)
+.env
+.env.local
+
+# Logs & caches
+*.log
+.DS_Store
+.yarn/cache
+.yarn/install-state.gz
+
+# Editor
+.vscode/
+.idea/
