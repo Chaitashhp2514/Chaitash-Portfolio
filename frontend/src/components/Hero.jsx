@@ -187,7 +187,7 @@ const Hero = () => {
                       Currently
                     </div>
                     <div className="font-semibold text-slate-100 text-sm">
-                      Shipping code ⚡
+                     Business Development Executive ⚡
                     </div>
                   </div>
                 </div>
