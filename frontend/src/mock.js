@@ -18,8 +18,8 @@ export const personalInfo = {
   languagesSpoken: 3,
   resumeUrl: "https://customer-assets.emergentagent.com/job_code-canvas-81/artifacts/3ilnn1az_Chaitash_Resume.pdf",
   socials: {
-    github: "https://github.com/chaitashpatel",
-    linkedin: "https://linkedin.com/in/chaitashpatel",
+    github: "https://github.com/chaitashhp2514",
+    linkedin: "https://linkedin.com/in/chaitash-patel-3717501a0",
     twitter: "https://twitter.com/chaitashpatel",
     email: "mailto:chaitash.work@gmail.com"
   }
