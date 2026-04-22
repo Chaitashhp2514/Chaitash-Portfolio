@@ -76,7 +76,7 @@ const Footer = () => {
           </div>
         </div>
 
-        <div className="pt-6 border-t border-white/5 flex flex-col sm:flex-row items-center">
+        <div className="pt-6 border-t border-white/5 flex flex-col sm:flex-row items-center align="center">
           <div className="text-xs text-slate-500 font-mono">
             © {year} {personalInfo.name}. All rights reserved.
           </div>
