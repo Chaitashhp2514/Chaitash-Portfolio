@@ -26,9 +26,9 @@ export const personalInfo = {
 };
 
 export const aboutHighlights = [
-  { label: "Years Learning", value: "3+" },
-  { label: "Projects Built", value: "8" },
-  { label: "Hackathons", value: "6" },
+  { label: "Years Learning", value: "4+" },
+  { label: "Projects Built", value: "4" },
+  { label: "Hackathons", value: "2" },
   { label: "Languages Spoken", value: "3" }
 ];
 
