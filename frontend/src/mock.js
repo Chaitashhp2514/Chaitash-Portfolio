@@ -11,7 +11,7 @@ export const personalInfo = {
   availability: "Open to internships & full-time roles",
   bio: "Accomplished Computer Engineer specializing in full-stack software development and digital design, with a proven track record in crafting intuitive web applications (React Router, SQL databases) and automation systems (servo motor controls via embedded C/Arduino scripting). Expert in server management (cPanel, SSH hosting) and scalable architectures that power seamless user experiences.",
   shortBio: "Computer Engineering student building full-stack web, mobile & AR experiences.",
-  photoUrl: "https://drive.google.com/file/d/1jX8QFvhfvkOv2IjWegU6mQhEcsj3M_GV/preview",
+  photoUrl: "https://customer-assets.emergentagent.com/job_code-canvas-81/artifacts/06tzkx08_IMG_6042.PNG",
   yearsExperience: 3,
   projectsCompleted: 4,
   hackathons: 3,
