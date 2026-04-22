@@ -9,7 +9,7 @@ export const personalInfo = {
   email: "chaitash.work@gmail.com",
   phone: "+91 70692 91955",
   availability: "Open to internships & full-time roles",
-  bio: Accomplished Computer Engineer specializing in full-stack software development and digital design, with a proven track record in crafting intuitive web applications (React Router, SQL databases) and automation systems (servo motor controls via embedded C/Arduino scripting). Expert in server management (cPanel, SSH hosting) and scalable architectures that power seamless user experiences.",
+  bio: "Accomplished Computer Engineer specializing in full-stack software development and digital design, with a proven track record in crafting intuitive web applications (React Router, SQL databases) and automation systems (servo motor controls via embedded C/Arduino scripting). Expert in server management (cPanel, SSH hosting) and scalable architectures that power seamless user experiences.",
   shortBio: "Computer Engineering student building full-stack web, mobile & AR experiences.",
   photoUrl: "https://customer-assets.emergentagent.com/job_code-canvas-81/artifacts/06tzkx08_IMG_6042.PNG",
   yearsExperience: 3,
