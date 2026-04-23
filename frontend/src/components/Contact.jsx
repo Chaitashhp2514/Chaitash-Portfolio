@@ -128,72 +128,7 @@ const Contact = () => {
                 <label className="block text-xs font-mono text-slate-400 uppercase tracking-wider mb-2">
                   Name
                 </label>
-                <Input
-                  name="name"
-                  value={form.name}
-                  onChange={handleChange}
-                  placeholder="Your full name"
-                  className="bg-[#09090f]/60 border-white/10 text-slate-100 placeholder:text-slate-500 h-11 focus-visible:ring-amber-500 focus-visible:border-amber-500/50"
-                />
-              </div>
-              <div>
-                <label className="block text-xs font-mono text-slate-400 uppercase tracking-wider mb-2">
-                  Email
-                </label>
-                <Input
-                  type="email"
-                  name="email"
-                  value={form.email}
-                  onChange={handleChange}
-                  placeholder="you@company.com"
-                  className="bg-[#09090f]/60 border-white/10 text-slate-100 placeholder:text-slate-500 h-11 focus-visible:ring-amber-500 focus-visible:border-amber-500/50"
-                />
-              </div>
-            </div>
-            <div>
-              <label className="block text-xs font-mono text-slate-400 uppercase tracking-wider mb-2">
-                Subject
-              </label>
-              <Input
-                name="subject"
-                value={form.subject}
-                onChange={handleChange}
-                placeholder="What's this about?"
-                className="bg-[#09090f]/60 border-white/10 text-slate-100 placeholder:text-slate-500 h-11 focus-visible:ring-amber-500 focus-visible:border-amber-500/50"
-              />
-            </div>
-            <div>
-              <label className="block text-xs font-mono text-slate-400 uppercase tracking-wider mb-2">
-                Message
-              </label>
-              <Textarea
-                name="message"
-                value={form.message}
-                onChange={handleChange}
-                placeholder="Tell me a bit about your project, timeline, and what you're looking for..."
-                rows={6}
-                className="bg-[#09090f]/60 border-white/10 text-slate-100 placeholder:text-slate-500 focus-visible:ring-amber-500 focus-visible:border-amber-500/50 resize-none"
-              />
-            </div>
-            <Button
-              type="submit"
-              disabled={submitting}
-              className="w-full sm:w-auto group bg-amber-500 hover:bg-amber-400 text-[#09090f] font-semibold h-12 px-8 rounded-md shadow-lg shadow-amber-500/20 hover:shadow-amber-500/40 transition-all disabled:opacity-70"
-            >
-              {submitting ? (
-                <>
-                  <Loader2 className="w-4 h-4 mr-2 animate-spin" />
-                  Sending...
-                </>
-              ) : (
-                <>
-                  Send message
-                  <Send className="w-4 h-4 ml-2 group-hover:translate-x-1 transition-transform" />
-                </>
-              )}
-            </Button>
-          </form>
-        </div>
+                       </div>
       </div>
     </section>
   );
