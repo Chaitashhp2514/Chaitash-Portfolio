@@ -103,33 +103,13 @@ const Contact = () => {
                   { href: personalInfo.socials.linkedin, Icon: Linkedin, label: "LinkedIn" },
                   { href: personalInfo.socials.twitter, Icon: Twitter, label: "Twitter" }
                 ].map(({ href, Icon, label }) => (
-                  <a
-                    key={label}
-                    href={href}
-                    target="_blank"
-                    rel="noreferrer"
-                    aria-label={label}
-                    className="w-11 h-11 rounded-lg glass flex items-center justify-center text-slate-400 hover:text-amber-400 hover:border-amber-500/40 transition-all"
-                  >
-                    <Icon className="w-5 h-5" />
-                  </a>
+
                 ))}
               </div>
             </div>
           </div>
 
-          {/* Form */}
-          <form
-            onSubmit={handleSubmit}
-            className="lg:col-span-7 glass rounded-2xl p-6 sm:p-8 space-y-5"
-          >
-            <div className="grid sm:grid-cols-2 gap-5">
-              <div>
-                <label className="block text-xs font-mono text-slate-400 uppercase tracking-wider mb-2">
-                  Name
-                </label>
-                       </div>
-      </div>
+         
     </section>
   );
 };
