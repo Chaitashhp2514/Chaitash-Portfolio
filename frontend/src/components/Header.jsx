@@ -116,12 +116,7 @@ const Header = () => {
                 {link.label}
               </button>
             ))}
-            <Button
-              onClick={() => handleNav("#contact")}
-              className="mt-3 bg-amber-500 hover:bg-amber-400 text-white font-semibold"
-            >
-              Let's Talk
-            </Button>
+           
           </nav>
         </div>
       )}
