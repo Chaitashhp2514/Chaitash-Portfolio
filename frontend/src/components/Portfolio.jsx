@@ -7,7 +7,6 @@ import Projects from "./Projects";
 import Experience from "./Experience";
 import Education from "./Education";
 import Achievements from "./Achievements";
-import Contact from "./Contact";
 import Footer from "./Footer";
 
 const Portfolio = () => {
