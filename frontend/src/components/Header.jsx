@@ -89,16 +89,6 @@ const Header = () => {
             })}
           </nav>
 
-          {/* CTA */}
-          <div className="hidden lg:flex items-center gap-3">
-            <Button
-              onClick={() => handleNav("#contact")}
-              className="bg-amber-500 hover:bg-amber-400 text-white font-semibold h-10 px-5 rounded-md shadow-lg shadow-violet-500/25 hover:shadow-violet-500/50 transition-all"
-            >
-              Let's Talk
-            </Button>
-          </div>
-
           {/* Mobile toggle */}
           <button
             onClick={() => setMobileOpen((v) => !v)}
